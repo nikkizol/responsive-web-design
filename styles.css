@@ -9,9 +9,9 @@ body {
 
     }
     h1 {display: none}
-    div.small {float:left; display:inline; width: 25%;margin: 15px;border-style: solid; padding:10px}
-    div.medium {float:left; display:inline; width: 25%;margin: 15px;border-style: solid;padding:10px}
-    div.large {float:left; display:inline; width: 25%;margin: 15px;border-style: solid;padding:10px}
+    div.small {float:left; width: 25%;margin: 15px;border-style: solid; padding:10px}
+    div.medium {float:left;  width: 25%;margin: 15px;border-style: solid;padding:10px}
+    div.large {float:left;  width: 25%;margin: 15px;border-style: solid;padding:10px}
 }
 @media screen and (min-width:500px) and (max-width: 768px) {
     body {
@@ -19,9 +19,9 @@ body {
         font-size: 20px
 
     }
-    div.small {float:left; margin-top:17%; display:block;border-style: solid; width: 66%;padding:10px}
-    div.medium {float: right;margin-right:-18%; display:block;border-style: solid; width: 33%; 5px;padding:20px}
-    div.large {float:left; display:block;border-style: solid; width: 100%;margin: 5px;padding:10px}
+    div.small {width: 63%; float:left; mergin-left:10%; border-style: solid;padding:5px }
+    div.medium {width: 30%; float:right; clear:right; border-style: solid;padding:5px}
+    div.large { width: 100%; float:left; margin-top: 5%;border-style: solid;padding:5px }
 
 }
 @media screen and (max-width: 500px) {
