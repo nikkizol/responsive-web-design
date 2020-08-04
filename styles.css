@@ -17,10 +17,12 @@ body {
     body {
         background-color: lightseagreen;
         font-size: 20px
+
     }
-    div.small {float:left; display:inline;border-style: solid; width: 66%;margin: 5px;padding:10px}
-    div.medium {float:left; display:inline;border-style: solid; width: 33%;margin: 5px;padding:20px}
-    div.large {float:left; display:inline;border-style: solid; width: 100%;margin: 5px;padding:10px}
+    div.small {float:left; margin-top:17%; display:block;border-style: solid; width: 66%;padding:10px}
+    div.medium {float: right;margin-right:-18%; display:block;border-style: solid; width: 33%; 5px;padding:20px}
+    div.large {float:left; display:block;border-style: solid; width: 100%;margin: 5px;padding:10px}
+
 }
 @media screen and (max-width: 500px) {
     body {
@@ -32,3 +34,5 @@ body {
     div.large {style="z-index: 2; position: absolute; top: 0px; left: 0px;}
     div small {style="z-index: 1; position: absolute; top: 0px; left: 0px;}
 }
+
+
