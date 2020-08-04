@@ -5,24 +5,30 @@ body {
 @media screen and (min-width: 768px) {
     body {
         background-color: lightskyblue;
-        font-size: 20px
+        font-size: 25px
+
     }
-    div.small {display: none}
-    div.medium {display: none}
+    h1 {display: none}
+    div.small {float:left; display:inline; width: 25%;margin: 15px;border-style: solid; padding:10px}
+    div.medium {float:left; display:inline; width: 25%;margin: 15px;border-style: solid;padding:10px}
+    div.large {float:left; display:inline; width: 25%;margin: 15px;border-style: solid;padding:10px}
 }
 @media screen and (min-width:500px) and (max-width: 768px) {
     body {
         background-color: lightseagreen;
-        font-size: 25px
+        font-size: 20px
     }
-    div.small {display: none}
-    div.large {display: none}
+    div.small {float:left; display:inline;border-style: solid; width: 66%;margin: 5px;padding:10px}
+    div.medium {float:left; display:inline;border-style: solid; width: 33%;margin: 5px;padding:20px}
+    div.large {float:left; display:inline;border-style: solid; width: 100%;margin: 5px;padding:10px}
 }
 @media screen and (max-width: 500px) {
     body {
         background-color: indianred;
-        font-size: 30px
+        font-size: 15px
     }
-    div.medium {display: none}
-    div.large {display: none}
+    h1 {display: none}
+    div.medium {style="z-index: 3; position: absolute; top: 0px; left: 0px;}
+    div.large {style="z-index: 2; position: absolute; top: 0px; left: 0px;}
+    div small {style="z-index: 1; position: absolute; top: 0px; left: 0px;}
 }
