@@ -13,7 +13,7 @@ body {
 @media screen and (max-width: 768px) {
     body {
         background-color: lightseagreen;
-        font-size: 50px
+        font-size: 30px
     }
     div.small {display: none}
     div.large {display: none}
@@ -21,7 +21,7 @@ body {
 @media screen and (max-width: 300px) {
     body {
         background-color: indianred;
-    font-size: 80px}
+    font-size: 50px}
     div.medium {display: none}
     div.large {display: none}
 }
